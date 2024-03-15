@@ -1,0 +1,98 @@
+<!-- Create javascript progress bar with percentage -->
+
+<!-- You are tasked with creating a simple JavaScript progress bar component that 
+    visually represents the completion percentage of a task. The progress bar should 
+    update dynamically as the task progresses, and it should display the percentage of 
+    completion alongside the bar. -->
+
+
+<!-- Requirements:
+
+- Create a JavaScript function or class named ProgressBar that can be 
+instantiated to create individual progress bars.
+- The ProgressBar should accept two parameters upon instantiation: container 
+(DOM element where the progress bar will be appended) and initialPercentage 
+(the starting completion percentage, defaults to 0 if not provided).
+- The progress bar should visually represent the completion percentage with a 
+colored bar that fills the container horizontally.
+- Display the percentage of completion next to or on top of the progress bar.
+- Implement a method named update which takes a percentage as a parameter and
+ updates the progress bar accordingly. Ensure that the percentage is within 
+ the range of 0 to 100.
+- The progress bar should smoothly transition from one percentage to another 
+when updated.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Question: Progress Bar</title>
+
+    <style>
+        .progress-bar {
+            border: solid 1px;
+            height: 20px;
+            width: 80%;
+            background-color: red;
+        }
+        #container {
+            display: flex;
+            align-items: center;
+        }
+        .progress-label {
+            margin-left: 10px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <h1>Interview Question: Progress Bar</h1>
+    <div id="progressContainer">
+    </div>
+    <div><button id="button">Click Here</button></div>
+</body>
+
+<script>
+    class ProgressBar {
+        constructor(container) {
+                this.container = container;
+                this.render();
+            }
+        render() {
+            this.progressBar = document.createElement("div");
+            this.progressBar.classList.add("progress-bar");
+            this.progressBar.style.width = "0%";
+            
+
+            this.progressLabel = document.createElement("div");
+            this.progressLabel.classList.add("progress-label");
+            this.progressLabel.textContent = "0%";
+
+            this.container.appendChild(this.progressLabel);
+            this.container.appendChild(this.progressBar);
+        }
+
+        increaseProgress() {
+            let newWidth = parseInt(this.progressBar.style.width) + 20;
+
+            if (newWidth <= 100) {
+                this.progressBar.style.width = `${newWidth}%`;
+                this.progressLabel.textContent = `${newWidth}%`;
+            }
+        }
+    }
+
+    const container = document.getElementById('progressContainer');
+    const progressBar = new ProgressBar(container, 0);
+
+    let button = document.getElementById("button");
+    button.addEventListener('click', () => progressBar.increaseProgress());
+
+</script>
+</body>
+</html>
+
