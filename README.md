@@ -1,38 +1,159 @@
-# interview-practice
+1. [Create bars as percentage of div width](#create-bars-as-percentage-of-div-width)
+2. [Implement a Progress Bar](#implement-a-progress-bar)
+3. [Create a stack/queue implementation](#create-a-stackqueue-implementation)
+4. [Process HTML string into formatted code](#process-html-string-into-formatted-code)
+5. [Mailing Address Boxes](#mailing-address-boxes)
+6. [Horizontal Box Swipe](#horizontal-box-swipe)
+7. [Formatted Date Component](#formatted-date-component)
+8. [Like Button](#like-button)
+9. [Flippable Card](#flippable-card)
+10. [Tic Tac Toe Game](#tic-tac-toe-game)
+12. [Form with Table Display](#form-with-table-display)
+13. [Display JSON Data with Search](#display-json-data-with-search)
+14. [BFS with Typescript](#bfs-with-typescript)
+15. [Write QuerySelectorAll Method](#write-queryselectorall-method)
+16. [Implement Reduce Method](#implement-reduce-method)
+17. [Flatten Nested Object](#flatten-nested-object)
+18. [Least Common Ancestor](#least-common-ancestor)
+19. [Best Deal Calculation](#best-deal-calculation)
+20. [Async and Await Function](#async-and-await-function)
+21. [CSS Box Model and JavaScript Closures](#css-box-model-and-javascript-closures)
+22. [Tic Tac Toe Game Implementation](#tic-tac-toe-game-implementation)
+23. [Adaptive Layout with Flexbox](#adaptive-layout-with-flexbox)
+24. [Pagination Development](#pagination-development)
+25. [Common HTTP Methods](#common-http-methods)
+26. [Photo List Web App](#photo-list-web-app)
+27. [Product Browser](#product-browser)
+28. [Group Anagrams & Word Break](#group-anagrams--word-break)
+29. [CSS Box Model, Position, Display](#css-box-model-position-display)
+30. [Tab Plugin](#tab-plugin)
 
-Frontend Interview Questions:
+## Create bars as percentage of div width
 
-Create bars as percentage of div width
+...
 
-Implement a Progress Bar
-create a stack/queue implementation
-process html string into formatted code
-Question on to create Horizontal way create box of 5 and clicking on next button shows other five box all box represent the Mailing address and ship button clicking submit button some backend operation
-Design the Box and and horizontal way swipe to next boxes
-Create a component that return a formatted date.
-Make a like button using html/css/javascript or react
-adding a card with a value that the user can flip to show a different value
-make a tic tac toe game 
-Onsite: 1) longest sequence in binary tree (Data-structure question) 2)Dynamically build a file tree from a nested JSON object. 3) create a search bar using HTML, CSS and JavaScript 
-1 html coding question and 1 medium algorithm question
-creating a form and a table below it to display what was entered. How would you optimize the table if there were 10,000 results
-Display data of a given JSON object using vanilla JS and allow users to search.
-BFS with Typescript and return nodes with certain attribute values.
-Dynamically build a file tree from a nested JSON object.
-Write the querySelectorAll method in JS
-Write the method for reduce
-Was asked to flatten nested object
-What is CSS Box? What happens when you type URL?
-Find the least common ancestor of the deal with the structure similar to the above given a tree and two products
-What is the best deal for the product given the tree-like data structure (e.g. Root -> Clothes -> Shorts -> Blue -> M) and a product where each category/product may have it's own deal. So in the example above if category Clothes have 15% discount and Blue Shorts M have 10% discount the output should be 15%.
-Write a function with Async and Await.
-2. CSS box model, Javascript closures etc
-Programming question - Tic Tac Toe using html, javascript and css.
-2. Recreate an adaptive layout with flexbox. Ensure accessibility.
-Develop pagination using plain JS or any framework./ How does pagination typically function for the frontend?
-Explain what the common HTTP methods are, how they differ, and what they are used for.
-Design a small web app with photo list
-creating a product browser that you can add/remove products 
-Group Anagrams & Word Break
-What is CSS Box Model, CSS position, CSS Display property ? how to write a Banner text on image?
-Write a tab plugin in JS, CSS and HTML
+## Implement a Progress Bar
+
+...
+
+## Create a stack/queue implementation
+
+...
+
+## Process HTML string into formatted code
+
+...
+
+## Mailing Address Boxes
+
+...
+
+## Horizontal Box Swipe
+
+...
+
+## Formatted Date Component
+
+...
+
+## Like Button
+
+...
+
+## Flippable Card
+
+...
+
+## Tic Tac Toe Game
+
+...
+
+### Onsite Questions
+
+#### Longest Sequence in Binary Tree
+
+...
+
+#### Dynamically Build File Tree from JSON
+
+...
+
+#### Search Bar Implementation
+
+...
+
+## Form with Table Display
+
+...
+
+## Display JSON Data with Search
+
+...
+
+## BFS with Typescript
+
+...
+
+## Write QuerySelectorAll Method
+
+...
+
+## Implement Reduce Method
+
+...
+
+## Flatten Nested Object
+
+...
+
+## Least Common Ancestor
+
+...
+
+## Best Deal Calculation
+
+...
+
+## Async and Await Function
+
+...
+
+## CSS Box Model and JavaScript Closures
+
+...
+
+## Tic Tac Toe Game Implementation
+
+...
+
+## Adaptive Layout with Flexbox
+
+...
+
+## Pagination Development
+
+...
+
+## Common HTTP Methods
+
+...
+
+## Photo List Web App
+
+...
+
+## Product Browser
+
+...
+
+## Group Anagrams & Word Break
+
+...
+
+## CSS Box Model, Position, Display
+
+...
+
+## Tab Plugin
+
+...
