@@ -71,7 +71,7 @@ You are tasked with creating a simple JavaScript progress bar component that vis
 
 ## Tic Tac Toe Game
 
-...
+[Answer](https://github.com/courtneypeterson56/interview-practice/blob/main/tik-tac-toe.html)
 
 ## Onsite Questions
 
