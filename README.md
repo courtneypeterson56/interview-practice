@@ -31,11 +31,11 @@
 
 ## Create bars as percentage of div width
 
-...
+[Answer](https://github.com/courtneypeterson56/interview-practice/blob/main/bar-percentage.html) 
 
 ## Implement a Progress Bar
 
-...
+[Answer](https://github.com/courtneypeterson56/interview-practice/blob/main/progress-bar.html)
 
 ## Create a stack/queue implementation
 
