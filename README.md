@@ -1,3 +1,5 @@
+**Frontend Interview Practice Questions:**
+
 1. [Create bars as percentage of div width](#create-bars-as-percentage-of-div-width)
 2. [Implement a Progress Bar](#implement-a-progress-bar)
 3. [Create a stack/queue implementation](#create-a-stackqueue-implementation)
@@ -32,10 +34,12 @@
 ## Create bars as percentage of div width
 
 [Answer](https://github.com/courtneypeterson56/interview-practice/blob/main/bar-percentage.html) 
+Create a user interface element that consists of bars displayed horizontally within a container div. Each bar should represent a percentage of the container's width. Your task is to implement this feature using HTML, CSS, and optionally JavaScript. The bars should adjust dynamically as the width of the container changes. Please provide a solution that is clean, efficient, and cross-browser compatible.
 
 ## Implement a Progress Bar
 
 [Answer](https://github.com/courtneypeterson56/interview-practice/blob/main/progress-bar.html)
+You are tasked with creating a simple JavaScript progress bar component that visually represents the completion percentage of a task. The progress bar should update dynamically as the task progresses, and it should display the percentage of completion alongside the bar. 
 
 ## Create a stack/queue implementation
 
