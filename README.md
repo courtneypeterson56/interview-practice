@@ -8,6 +8,7 @@
 8. [Like Button](#like-button)
 9. [Flippable Card](#flippable-card)
 10. [Tic Tac Toe Game](#tic-tac-toe-game)
+11. [Onsite Questions](#onsite-questions)
 12. [Form with Table Display](#form-with-table-display)
 13. [Display JSON Data with Search](#display-json-data-with-search)
 14. [BFS with Typescript](#bfs-with-typescript)
@@ -68,19 +69,11 @@
 
 ...
 
-### Onsite Questions
+## Onsite Questions
 
-#### Longest Sequence in Binary Tree
-
-...
-
-#### Dynamically Build File Tree from JSON
-
-...
-
-#### Search Bar Implementation
-
-...
+1. [Longest Sequence in Binary Tree](#longest-sequence-in-binary-tree)
+2. [Dynamically Build File Tree from JSON](#dynamically-build-file-tree-from-json)
+3. [Search Bar Implementation](#search-bar-implementation)
 
 ## Form with Table Display
 
@@ -157,3 +150,4 @@
 ## Tab Plugin
 
 ...
+
