@@ -3,6 +3,7 @@
 Frontend Interview Questions:
 
 Create bars as percentage of div width
+
 Implement a Progress Bar
 create a stack/queue implementation
 process html string into formatted code
