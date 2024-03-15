@@ -1,0 +1,58 @@
+<!-- Create bars as percentage of div width -->
+
+<!-- 
+    Create a user interface element that consists of bars displayed horizontally within a 
+    container div. Each bar should represent a percentage of the container's width. 
+    Your task is to implement this feature using HTML, CSS, and optionally JavaScript. 
+    The bars should adjust dynamically as the width of the container changes. 
+    Please provide a solution that is clean, efficient, and cross-browser compatible.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Question: Bar Percentage</title>
+
+    <style>
+        #container {
+            /* display: flex; */
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .bar {
+            height: 30px;
+            border: red solid 2px;
+            background-color: blue;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <h1>Interview Question: Bar Percentage</h1>
+    <div id="container"> 
+    </div>
+</body>
+
+<script>
+    const percentages = [50, 20, 10, 5];
+    function createBars(percentages) {
+        const container = document.getElementById("container");
+        percentages.forEach(percentage => {
+            const bar = document.createElement("div");
+            bar.classList.add("bar");
+            bar.style.width = percentage + "%";
+            bar.innerText = "Percentage: " + percentage + "%";
+            container.appendChild(bar);
+        })
+    }
+    createBars(percentages);
+</script>
+</body>
+</html>
